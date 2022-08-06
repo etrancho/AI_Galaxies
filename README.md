@@ -54,8 +54,7 @@ cd jetson-inference/python/training/classification
 <p>- An image from the data:</p>
 
 ```
-imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
---labels=data/GALAXIES/labels.txt data/GALAXIES/test/Galaxies/g22.jpg results/g22G.jpg
+imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/GALAXIES/labels.txt data/GALAXIES/test/Galaxies/g22.jpg results/g22G.jpg
 ```
 
 <div class="rows">
@@ -66,8 +65,7 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
 <p>- An image to test:</p>
 
 ```
-imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
---labels=data/GALAXIES/labels.txt data/GALAXIES/test/Galaxies/SQ5_05.jpg results/SQ5_05G.jpg
+imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/GALAXIES/labels.txt data/GALAXIES/test/Galaxies/SQ5_05.jpg results/SQ5_05G.jpg
 ```
 
 <div class="rows">
@@ -79,8 +77,7 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
 <p>- An image from the data:</p>
 
 ```
-imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
---labels=data/GALAXIES/labels.txt data/GALAXIES/test/Stars/star13.jpg results/star13S.jpg
+imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/GALAXIES/labels.txt data/GALAXIES/test/Stars/star13.jpg results/star13S.jpg
 ```
 
 <div class="rows">
@@ -91,8 +88,7 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
 <p>- An image to test:</p>
 
 ```
-imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
---labels=data/GALAXIES/labels.txt data/GALAXIES/test/Stars/stest1.jpg results/stest1S.jpg
+imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/GALAXIES/labels.txt data/GALAXIES/test/Stars/stest1.jpg results/stest1S.jpg
 ```
 
 <div class="rows">
