@@ -13,12 +13,12 @@
 <p>This project was created with Python and ImageNet, and it was made to understand the difference between galaxies and stars.</p>
 
 <h2>Hardware needed</h2>
-<p>- Jetson Nano 2GB with SD Card Inserted</p>
-<p>- USB to MicroUSB Data Cable</p>
-<p>- USBC Power Supply</p>
-<p>- USB Mouse and Keyboard</p>
-<p>- HDMI Display (Monitor, TV etc)</p>
-<p>- Ethernet Cable</p>
+<p>- Jetson Nano 2GB with SD Card Inserted.</p>
+<p>- USB to MicroUSB Data Cable.</p>
+<p>- USBC Power Supply.</p>
+<p>- USB Mouse and Keyboard.</p>
+<p>- HDMI Display (Monitor, TV etc).</p>
+<p>- Ethernet Cable.</p>
 
 <h2>Explanation of repositories</h2>
 <p>My project is in:</p>
