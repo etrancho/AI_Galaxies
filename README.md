@@ -97,8 +97,8 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
 </div>
 
 <h3>Use scp to look at the image on your host computer</h3>
-<p><b>- Windows:</b> scp <nanousername>@192.168.55.1:/home/<nanousername>/jetson-inference/python/training/classification/cat.jpg C:\Users\<hostusername>\Desktop<p>
-<p><b>- Mac:</b> scp <nanousername>@192.168.55.1:/home/<nanousername>/jetson-inference/python/training/classification/cat.jpg ./<p>
+<p><b>- Windows:</b> scp nanousername@192.168.55.1:/home/<nanousername>/jetson-inference/python/training/classification/results/img.jpg C:\Users\hostusername\Desktop<p>
+<p><b>- Mac:</b> scp nanousername@192.168.55.1:/home/nanousername/jetson-inference/python/training/classification/results/img.jpg ./<p>
 
 <h2>Github repository taken as an example</h2>
 <a href="https://github.com/dusty-nv/jetson-inference">https://github.com/dusty-nv/jetson-inference</a>
