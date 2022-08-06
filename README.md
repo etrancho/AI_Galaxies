@@ -6,7 +6,7 @@
 * [Description](#description)
 * [Hardware needed](#hardware-needed)
 * [Explanation of repositories](#explanation-of-repositories)
-* [How can I run it?](#how-can-i-run-it?) 
+* [How to run it](#how-to-run-it) 
 * [Github repository taken as an example](#github-repository-taken-as-an-example)
 
 <h2>Description</h2>
@@ -39,7 +39,7 @@ jetson-inference/python/training/classification/data/GALAXIES
 jetson-inference/python/training/classification/models/GALAXIES
 ```
 
-<h2>How can I run it?</h2>
+<h2>How to run it</h2>
 <h3>Use ssh to remote into the nano:</h3>
 
 ```
