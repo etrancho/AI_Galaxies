@@ -6,7 +6,7 @@
 * [Description](#description)
 * [Hardware needed](#hardware-needed)
 * [Explanation of repositories](#explanation-of-repositories)
-* [How can I run it?](#how-can-i-run-it?) 
+* [How can I run it?](#how-can-I-run-it?) 
 * [Github repository taken as an example](#github-repository-taken-as-an-example)
 
 <h2>Description</h2>
@@ -40,12 +40,18 @@ jetson-inference/python/training/classification/models/GALAXIES
 ```
 
 <h2>How can I run it?</h2>
+<h3>Use ssh to remote into the nano:</h3>
+
+```
+ssh <username>@192.168.55.1
+```
+<p>Change directories:</p>
 
 ```
 cd jetson-inference/python/training/classification
 ```
-<h3>An image from the <b>galaxies</b> folder</h3>
-<p>An image from the data</p>
+<h3>An image from the <b>galaxies</b> folder:</h3>
+<p>- An image from the data:</p>
 
 ```
 imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
@@ -57,7 +63,7 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
   <img src="https://user-images.githubusercontent.com/77303061/183264429-9c0c0203-3754-44b6-8ed5-22df69ed6777.jpg" width="200px" height="200px"/>
 </div>
 <br>
-<p>An image to test</p>
+<p>- An image to test:</p>
 
 ```
 imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
@@ -69,8 +75,8 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
   <img src="https://user-images.githubusercontent.com/77303061/183264445-75928650-c364-4ab0-9a16-ea396a95a812.jpg" width="100px" height="200px"/>
 </div>
 
-<h3>An image from the <b>stars</b> folder</h3>
-<p>An image from the data</p>
+<h3>An image from the <b>stars</b> folder:</h3>
+<p>- An image from the data:</p>
 
 ```
 imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
@@ -82,7 +88,7 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
   <img src="https://user-images.githubusercontent.com/77303061/183264671-ac594461-8cf7-4cbc-9d25-966ddd73d2d6.jpg" width="100px" height="150px"/>
 </div>
 <br>
-<p>An image to test</p>
+<p>- An image to test:</p>
 
 ```
 imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_blob=output_0 
