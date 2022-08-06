@@ -6,7 +6,7 @@
 * [Description](#description)
 * [Hardware needed](#hardware-needed)
 * [Explanation of repositories](#explanation-of-repositories)
-* [How can I run it?](#how-can-I-run-it?) 
+* [How can I run it?](#how-can-i-run-it?) 
 * [Github repository taken as an example](#github-repository-taken-as-an-example)
 
 <h2>Description</h2>
