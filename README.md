@@ -7,10 +7,11 @@
 * [Hardware needed](#hardware-needed)
 * [Explanation of repositories](#explanation-of-repositories)
 * [How to run it](#how-to-run-it) 
-* [Github repository taken as an example](#github-repository-taken-as-an-example)
 
 <h2>Description</h2>
 <p>This project was created with Python and ImageNet, and it was made to understand the difference between galaxies and stars.</p>
+<p><b>Github repository taken as an example:</b></p>
+<a href="https://github.com/dusty-nv/jetson-inference">https://github.com/dusty-nv/jetson-inference</a>
 
 <h2>Hardware needed</h2>
 <p>- Jetson Nano 2GB with SD Card Inserted.</p>
@@ -99,6 +100,3 @@ imagenet.py --model=models/GALAXIES/resnet18.onnx --input_blob=input_0 --output_
 <h3>Use scp to look at the image on your host computer</h3>
 <p><b>- Windows:</b> scp nanousername@192.168.55.1:/home/<nanousername>/jetson-inference/python/training/classification/results/img.jpg C:\Users\hostusername\Desktop<p>
 <p><b>- Mac:</b> scp nanousername@192.168.55.1:/home/nanousername/jetson-inference/python/training/classification/results/img.jpg ./<p>
-
-<h2>Github repository taken as an example</h2>
-<a href="https://github.com/dusty-nv/jetson-inference">https://github.com/dusty-nv/jetson-inference</a>
